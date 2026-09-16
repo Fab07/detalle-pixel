@@ -1,0 +1,23 @@
+body {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+#contenedor { cursor: pointer; }
+img { width: 150px; image-rendering: pixelated; }
+.oculto { display: none; }
+#carta {
+    background-color: #fdf6e3;
+    color: #000000;
+    padding: 20px;
+    border: 4px dashed #000;
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 2;
+}
